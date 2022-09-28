@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+html{
+  font-size: 62.5%;
+}
+a{
+  text-decoration: none;
+  color:#fff;
+}
+
+/* -----------navbar ------------ */
+.navbar-bg{
+  padding: 1.5rem 0;
+  z-index: 99;
+  position: relative;
+  
+}
+.navbar li{
+  padding: 0 2rem;
+}
+.navbar li a{
+  font-size: 1.5rem;
+  font-weight: normal;
+  position: relative;
+}
+.navbar li a:hover{
+  color:purple;
+  text-shadow: 0 0.2rem 0.3rem rgba(183,171,255,0.5);
+}
+.btn-style{
+  background-color: red;
+  font-size: 1.4rem;
+  color:#fff;
+  border-radius: 0;
+  border: 2.2px solid black;
+  box-shadow: -2.4px 2.4px black;
+  /* padding: 5px; */
+}
+.btn-style:hover{
+  box-shadow: none;
+  border:2px solid red !important;
+}
+
+/* -------------header------------- */
+.header{
+  background-color:rgb(32, 29, 29);
+  color:#fff;
+}
+.header h1{
+  font-size: 6rem;
+  font-weight: bold;
+  padding: 8rem 0;
+}
+.header .btn-style{
+    margin-bottom: 5rem;
+    padding:0.7rem 3.2rem;
+    font-size: 1.7rem;
+}
+.header form{
+  justify-content: right;
+}
+
+
+
+/* ---------------work----------- */
+.work{
+  padding: 8rem 0;
+  background-color:rgb(226, 226, 226);
+}
+.work h1{
+  font-size:3rem ;
+  font-weight: bold;
+  padding-bottom: 1.5rem;
+}
+.work .hr1{
+  width: 5rem;
+  border:1.5px solid black;
+  background-color:black;
+}
+.work p{
+  padding: 2rem 0;
+  font-size: 13px;
+}
+.card{
+  margin-right: 0.4rem;
+  /* border:1px solid black; */
+}
+.card-img-top{
+  border:2px solid black;
+  height: 30rem;
+}
+.card-body{
+  border:2px solid black;
+  border-top: none;
+}
+.card-button button{
+  border:none;
+  background-color: yellow;
+  padding:2px 2px;
+  margin:0 4px 4px 0;
+}
+
+
+/* ---------------Services----------------- */
+.services{
+  background-color:rgb(32, 29, 29);
+  color:#fff;
+  padding: 8rem 0 0 0;
+  position: relative;
+}
+.services h1{
+  font-size: 3.5rem;
+}
+.hr2{
+  margin: 2.5rem 0;
+  width: 5rem;
+  border:1.5px solid yellow;
+  background-color:rgb(252, 252, 3);
+}
+.col-service{
+  margin-top: 3rem ;
+}
+.btn-style-service{
+  background-color: rgb(27, 23, 23);
+  font-size: 1.4rem;
+  color:#fff;
+  border-radius: 0;
+  border: 2.2px solid rgb(250, 10, 10);
+  box-shadow: -2.4px 2.4px rgb(252, 5, 5);
+  margin: 3rem 0 5rem 0;
+}
+.btn-style-service:hover{
+box-shadow: none;
+border:2px solid rgb(245, 11, 11) !important;
+background-color: rgb(249, 17, 17) !important;
+}
+.btn-style-service i{
+  font-size: 10px;
+  margin-left: 3px;
+}
+.service-footer{
+  background-color:red;
+  width: 40%;
+  /* height: 70px; */
+  position: absolute;
+  bottom: 0;
+  right: 30px;
+  text-align: center;
+  transform:skew(-50deg );
+  padding: 0.2rem;
+}
+.service-footer p{
+  transform: skew(50deg) !important;
+  font-size: 10px;
+  color:black;
+}
+.service-footer p a{
+  color:black;
+  font-weight: bold;
+  font-size:13px ;
+}
+.service-footer p a:hover{
+  color:blue;
+}
+
+
+/* ------------advantages------------- */
+.advantages{
+  margin: 7rem 0;
+}
+.advantages h1{
+  color:yellow;
+  font-size: 5rem;
+  margin-bottom: -19px;
+  font-weight: bold;
+}
+.advantages-body{
+  margin-left: 1.5rem;
+}
+
+
+/* -------------statement------------ */
+
+.statement{
+  background-color:rgb(226, 226, 226);
+  padding: 7rem 0;
+}
+.statement hr{
+  margin: 2.5rem 0;
+  width: 4rem;
+  border:2px solid orangered;
+  background-color:orangered;
+}
+.statement h1{
+  font-weight: bold;
+  font-size: 4rem;
+}
+.statement-body{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin:3rem  0;
+}
+.statement-body .col-lg-6{
+  background-color:#fff;
+  padding: 7rem 2rem;
+  font-size: 2rem;
+  line-height: 22px;
+}
+.statement-body .col-lg-6 p{
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  font-weight: 600;
+}
+.statement-body .col-lg-4{
+   background-color:#fff;
+}
+.statement-body .col-lg-4 img{
+  width: 100%;
+}
+
+
+/* --------------solution---------------- */
+.solution{
+  padding: 10rem 0;
+  
+}
+.solution .col-10{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.solution1{
+  background-image: url("images/meeting.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 410px;
+  position: relative;
+}
+.solution-body{
+  width: 50%;
+  position: absolute;
+  left: 0;
+  bottom:0;
+  background-color:orange;
+  padding:10rem 3rem;
+}
+.solution-body h1{
+  font-weight: bold;
+}
+.btn-style-solution{
+font-size: 1.4rem;
+color: black;
+border-radius: 0;
+border: 2.2px solid black;
+box-shadow: -2.4px 2.4px black;
+margin-top: 1.5rem;
+padding:4px 15px;
+}
+.btn-style-solution:hover{
+box-shadow: none;
+border:2px solid black !important;
+background-color: rgb(245, 181, 62) !important;
+}
+
+/* -------------Footer------------ */
+.contact{
+  background-color:rgb(32, 29, 29);
+  color:#fff;
+  padding: 5rem 0  0;
+}
+.social-icons .fa-brands{
+  background: 2px solid #fff;
+  margin:0 20px 10px 0;
+  cursor: pointer;
+  font-size: 15px;
+}
+.social-icons .fa-brands:hover{
+  color:blue;
+  font-size: 17px;
+}
+.footer{
+  text-align: right;
+  padding: 1rem 0;
+}
+
+
+
+
+
+
+/* ------------media query------------ */
+@media screen and (max-width:579px){
+  .header h1{
+    font-size: 4.2rem;
+  }
+  .header .btn-style{
+    margin-bottom: 5rem;
+    padding:0.6rem 3.1rem;
+    font-size: 1.6rem;
+}
+.solution-body h1{
+  font-size: 17px;
+}
+.statement h1{
+  font-size: 3.7rem;
+}
+.service-footer{
+  width: 40%;
+  right: 40px;
+  padding: 0.2rem;
+}
+.service-footer p{
+  font-size: 10px;
+}
+.service-footer p a{
+  font-size:11px ;
+}
+
+
+/* --------------solution---------------- */
+.solution{
+  padding: 9rem 1.5rem;
+  
+}
+.solution-body{
+  width: 50%;
+  padding:10rem 2.9rem;
+} 
+.solution-body h1{
+  font-size:1.5rem;
+}
+.btn-style-solution{
+font-size: 1rem;
+padding:3.1px 10px;
+}
+}
+/* 
+@media screen and (max-width:500px){
+   /* --------------solution---------------- */
+  /* .solution{
+    padding: 8rem 1.4rem;
+    
+  }
+  .solution-body{
+    padding:9.5rem 1.9rem;
+  }  */
+  
+
+
+@media screen and (max-width:299px){
+ 
+  .service-footer{
+    width: 49%;
+    right: 40px;
+    padding: 0.09rem;
+  }
+  .service-footer p{
+    font-size: 8px;
+  }
+  .service-footer p a{
+    font-size:9px ;
+  }
+  .header h1{
+    font-size: 2.5rem;
+  }
+
+/* --------------solution---------------- */
+
+
+.solution-body{
+  padding:7rem 1rem;
+
+}
+.solution-body h1{
+  font-size:1.4rem;
+}
+.btn-style-solution{
+font-size: 1rem;
+padding:3px 8px;
+}
+
+}
+
+
