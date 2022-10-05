@@ -8,7 +8,7 @@ const Service = () => {
     <>
       <Navbar />
       <Services />
-      <p style={{backgroundColor:"white"}}/>
+      {/* <p style={{backgroundColor:"white"}}/> */}
       <Footer />
     </>
   )

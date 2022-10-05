@@ -49,7 +49,7 @@ a{
 
 /* -------------header------------- */
 .header{
-  background-color:rgb(32, 29, 29);
+  background-color:black;
   color:#fff;
 }
 .header h1{
@@ -109,7 +109,7 @@ a{
 
 /* ---------------Services----------------- */
 .services{
-  background-color:rgb(32, 29, 29);
+  background-color:black;
   color:#fff;
   padding: 8rem 0 0 0;
   position: relative;
@@ -127,13 +127,14 @@ a{
   margin-top: 3rem ;
 }
 .btn-style-service{
-  background-color: rgb(27, 23, 23);
+  background-color:black;
   font-size: 1.4rem;
   color:#fff;
   border-radius: 0;
   border: 2.2px solid rgb(250, 10, 10);
   box-shadow: -2.4px 2.4px rgb(252, 5, 5);
   margin: 3rem 0 5rem 0;
+  margin-bottom: 7rem;
 }
 .btn-style-service:hover{
 box-shadow: none;
@@ -143,21 +144,32 @@ background-color: rgb(249, 17, 17) !important;
 .btn-style-service i{
   font-size: 10px;
   margin-left: 3px;
+
+}
+.service-footer-main{
+  /* width: 30%; */
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex; 
+  /* background-color:red; */
+}
+.service-footer-main .triangle{
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent;
+  /* border-right: 50px solid transparent; */
+  border-bottom: 50px solid red;
 }
 .service-footer{
   background-color:red;
-  width: 40%;
-  /* height: 70px; */
-  position: absolute;
-  bottom: 0;
-  right: 30px;
   text-align: center;
-  transform:skew(-50deg );
-  padding: 0.2rem;
+  /* transform:skew(-50deg ); */
+  padding: 0.8rem 10rem;
 }
 .service-footer p{
-  transform: skew(50deg) !important;
-  font-size: 10px;
+  /* transform: skew(50deg) !important; */
+  font-size: 14px;
   color:black;
 }
 .service-footer p a{
@@ -273,7 +285,7 @@ background-color: rgb(245, 181, 62) !important;
 
 /* -------------Footer------------ */
 .contact{
-  background-color:rgb(32, 29, 29);
+  background-color:black;
   color:#fff;
   padding: 5rem 0  0;
 }
@@ -289,10 +301,88 @@ background-color: rgb(245, 181, 62) !important;
 }
 .footer{
   text-align: right;
-  padding: 1rem 0;
+  padding: 0.5rem 0;
 }
 
 
+/* ----------------------About1---------------- */
+.about1-main{
+  margin-top: 5rem;
+}
+.about1-main h1{
+  font-weight: bold;
+}
+.about1{
+  background-color:yellow;
+  margin-left: 1%;
+  min-height: 35vh;
+}
+
+.about1 .hr4{
+    width: 5rem;
+    border:1.5px solid blue !important;
+    background-color: rgb(51, 0, 255) !important;
+    margin: 2rem 0;
+}
+
+.about1-img{
+  position: absolute;
+  right: 0;
+  top: 9rem;
+}
+.about1-img img{
+  width: 100%;
+}
+
+.client{
+  margin: 3rem 0 ;
+}
+.hr5{
+  width: 9.5rem;
+  border:2px solid yellow;
+  background-color: yellow;
+  margin: 2rem 0;
+}
+.client .row{
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+.client img{
+  width: 35%;
+  margin: 2rem  0 0 0;
+
+}
+.about1-footer{
+  position: relative;
+  background-color:black;
+  padding: 4rem 0;
+}
+.about1-footer h3{
+  color:#fff;
+  line-height: 3rem;
+  word-spacing: 1px;
+}
+
+.industries{
+  margin: 7rem 0;
+}
+.industries img{
+  width: 30%;
+}
+.industries h2{
+  font-weight: bold;
+}
+.industries hr{
+    margin: 2.5rem 0;
+    width: 4rem;
+    border:2px solid red;
+    background-color:red;
+}
+.industries1{
+  margin: 5px 0px;
+  box-shadow:rgba(99,99,99,0.2) 5px 5px 5px 5px ;
+}
 
 
 
@@ -313,16 +403,10 @@ background-color: rgb(245, 181, 62) !important;
 .statement h1{
   font-size: 3.7rem;
 }
+
+/* ---------service footer ---------- */
 .service-footer{
-  width: 40%;
-  right: 40px;
-  padding: 0.2rem;
-}
-.service-footer p{
-  font-size: 10px;
-}
-.service-footer p a{
-  font-size:11px ;
+  padding: 0.8rem 5rem;
 }
 
 
@@ -342,33 +426,61 @@ background-color: rgb(245, 181, 62) !important;
 font-size: 1rem;
 padding:3.1px 10px;
 }
+/* -------about----- */
+.about1-main{
+  margin-top: 2rem;
 }
-/* 
+.about1-img{
+  top: 8rem;
+}
+}
+
+
 @media screen and (max-width:500px){
-   /* --------------solution---------------- */
-  /* .solution{
-    padding: 8rem 1.4rem;
-    
-  }
-  .solution-body{
-    padding:9.5rem 1.9rem;
-  }  */
+  
+/* ---------service footer ---------- */
+.service-footer{
+  padding: 0.8rem 0.1rem;
+}
+.service-footer p{
+  font-size: 12px;
+}
+.service-footer p a{
+  font-size:12px ;
+}
+
+/* --------about------- */
+
+.about1-main{
+  margin-top: 1rem;
+}
+.about1-img{
+  top: 7rem;
+}
+
+.about1-main h1{
+  font-size:14px ;
+}
+.about1-main{
+  font-size: 8px;
+}
+
+}
   
 
 
 @media screen and (max-width:299px){
- 
+  /* ---------service footer ---------- */
   .service-footer{
-    width: 49%;
-    right: 40px;
-    padding: 0.09rem;
+    padding: 0.8rem 0;
   }
   .service-footer p{
-    font-size: 8px;
+    font-size: 10px;
   }
   .service-footer p a{
-    font-size:9px ;
+    font-size:10px ;
   }
+  
   .header h1{
     font-size: 2.5rem;
   }
@@ -388,6 +500,23 @@ font-size: 1rem;
 padding:3px 8px;
 }
 
+
+/* --------about------- */
+.about1-main{
+  margin-top: 0;
 }
+.about1-img{
+  top: 6.5rem;
+}
+.about1-main h1{
+  font-size:12px ;
+}
+.about1-main{
+  font-size: 7px;
+}
+
+
+}
+
 
 

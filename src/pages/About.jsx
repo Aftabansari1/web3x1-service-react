@@ -1,15 +1,14 @@
 import React from 'react'
 import Navbar from '../Navbar';
-import Header from '../Header';
-import Advantages from '../Advantages'
+
 import Footer from '../Footer'
+import About1 from '../About1';
 
 const About = () => {
   return (
     <>
      <Navbar />
-     <Header />
-     <Advantages />
+     <About1 />
      <Footer />
       
     </>

@@ -13,12 +13,12 @@ const Advantages = () => {
             <p>Lorem ipsum dolor sit amet consectetur aftab ansari aperiam nesciunt est quis  deleniti aspernatur magni harum asperiomagni<br /> deleniti aspernatur magni harum asperiomagni </p>
             <div className="row">
                 {
-                    data.map((ele,index)=>{
+                    data.map((ele)=>{
                         const {id,title,info} = ele;
                         
                         return(
                             <>
-                                <div className="col-12 col-md-6 col-lg-4 col-advantages" key={index}>
+                                <div className="col-12 col-md-6 col-lg-4 col-advantages" key={id}>
                                     <h1>{id}</h1>
                                     <h3 className='advantages-body'> {title}</h3>
                                     <p className='advantages-body'> {info}</p>

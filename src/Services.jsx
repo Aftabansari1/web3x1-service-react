@@ -52,9 +52,13 @@ const Services = () => {
              <button className="btn  btn-style-service" type=""> view our services <i className="fa-solid fa-arrow-right"></i> </button>
           </form>
         </div>
-         <div className="service-footer ">
-            <p>We had to help with your product <NavLink to="">Let's talk</NavLink></p>
-         </div>
+        <div className="service-footer-main">
+            <div className="triangle"></div>
+            <div className="service-footer ">
+                <p>We had to help with your product <NavLink to="">Let's talk</NavLink></p>
+            </div>
+        </div>
+         
         </div>
     </>
   )

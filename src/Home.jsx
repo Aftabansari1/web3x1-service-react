@@ -1,4 +1,5 @@
 import React from 'react';
+import About1 from './About1';
 // import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 // import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
 import Advantages from './Advantages';
@@ -15,6 +16,7 @@ function App() {
   return (
     <>
     <Navbar />
+    {/* <About1 /> */}
     <Header />
     <Work />
     <Services/>
