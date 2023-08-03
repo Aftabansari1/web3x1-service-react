@@ -1,5 +1,6 @@
 const AdvantagesApi=[
     {
+        // This is data
         id:1,
         title:"Our team is yours",
         info:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic officia inventore quo asperiores quasi! Itaque, quam illo, cupiditate illum sapiente nam corporis deleniti tenetur velit, corrupti impedit laborum maxime earum!",
